@@ -1,5 +1,5 @@
 
-# C-POCKET ChatBot 💬
+# C-POCKET ChatBot
 
 Este proyecto es una prueba técnica que consiste en un chatbot funcional construido con:
 
@@ -10,7 +10,7 @@ Permite enviar mensajes a un bot y recibir respuestas automáticas, simulando un
 
 ---
 
-## 🔧 Requisitos
+## Requisitos
 
 Antes de empezar, asegúrate de tener instalado:
 
@@ -20,7 +20,7 @@ Antes de empezar, asegúrate de tener instalado:
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 Clona el repositorio:
 
@@ -31,7 +31,7 @@ cd C-POCKET_chatBot
 
 ---
 
-## ⚙️ Configuración del backend
+## Configuración del backend
 
 1. Ve a la carpeta del backend:
 
@@ -103,7 +103,7 @@ http://127.0.0.1:5500/frontend/index.html
 
 ---
 
-## ✉️ Cómo funciona
+## Cómo funciona
 
 - Escribe un mensaje en el input.
 - Haz clic en “Enviar”.
@@ -111,7 +111,7 @@ http://127.0.0.1:5500/frontend/index.html
 
 ---
 
-## 🧪 Pruebas
+## Pruebas
 
 Puedes usar Postman para probar el backend directamente con la ruta:
 
@@ -125,7 +125,7 @@ Body (JSON):
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 C-POCKET_chatBot/
@@ -142,13 +142,29 @@ C-POCKET_chatBot/
 
 ---
 
-## 🧑‍💻 Autor
+## Autor
 
 Juan José Monsalve  
 [https://github.com/jjmonsalvem](https://github.com/jjmonsalvem)
 
 ---
 
-## ✅ Notas finales
+## Notas finales
 
 Este proyecto fue construido con enfoque en simplicidad y funcionalidad básica para fines de evaluación técnica. Está listo para ser probado y validado.
+
+Importa el archivo chatbot_app.sql en tu servidor MySQL antes de ejecutar el backend.
+
+## Requisitos para correr el proyecto
+
+- Node.js y npm
+- MySQL (puedes usar XAMPP, WAMP, MAMP, etc.)
+
+## Configuración del backend
+
+1. Asegúrate de tener MySQL activo (puedes usar XAMPP)
+2. Crea una base de datos llamada `chatbot_app`
+3. Importa el archivo `chatbot_app.sql` incluido en este repositorio
+4. Crea un archivo `.env` con esta estructura:
+
+
